@@ -1,0 +1,11 @@
+name: Example
+version: 1.0-SNAPSHOT
+main: dev.ahowe.example.ExamplePlugin
+api-version: 1.16
+authors: [ unlimitedcoder2 ]
+description: Example plugin
+website: https://ahowe.dev
+
+commands:
+  test:
+    description: Test command
