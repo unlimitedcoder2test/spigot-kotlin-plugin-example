@@ -1,0 +1,2 @@
+bz/ene/plugintest/Main.java
+ bz.ene.plugintest.Main

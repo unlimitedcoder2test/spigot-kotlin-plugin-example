@@ -1,0 +1,7 @@
+database:
+  host: "localhost"
+  port: 4215
+  database: "example"
+  username: "user"
+  password: "pass"
+  table: "triggers"
