@@ -140,25 +140,10 @@
 			<artifactId>jasync-mysql</artifactId>
 			<version>1.1.6</version>
 		</dependency>
-
-		<!--	thought it might have an issue with these being shaded into the jar. Set them to provided so it didn't add them to the fat jar	-->
-		<!--<dependency>
+		<dependency>
 			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-api</artifactId>
-			<version>1.7.25</version>
-			<scope>provided</scope>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.22</version>
 		</dependency>
-		<dependency>
-			<groupId>io.netty</groupId>
-			<artifactId>netty-transport</artifactId>
-			<version>4.1.49.Final</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>io.netty</groupId>
-			<artifactId>netty-handler</artifactId>
-			<version>4.1.49.Final</version>
-			<scope>provided</scope>
-		</dependency>-->
 	</dependencies>
 </project>
